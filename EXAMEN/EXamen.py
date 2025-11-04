@@ -18,3 +18,8 @@ def calculo_media(dias):
     
 
 def calculo_valor(dias):
+#Aqui cambio los metodos
+
+def calculoelvalordelavariabe(dias):
+    for i in range(len(dias)):
+        if dias[i] > dias[i + 1]:
